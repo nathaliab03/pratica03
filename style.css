@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    font-family: monospace;
+}
+
+body {
+    background-image: url("/img/bg.jpg");
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+
+#result {
+    text-align: center;
+    margin: 1em;
+}
+
+#container {
+    padding: 5em;
+    position: relative;
+    
+
+}
+
+.borderTop {
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to left, #ff9102, #ff4800)1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    transition: 0.5s ease-in;
+}
+
+#container:hover > .borderTop {
+    border-image: linear-gradient(to left, #ff2600, #ff9102)1;
+}
+
+.borderLeft {
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to top, #ff9102, #ff4800)1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 50%;
+    transition: 0.5s ease-in;
+}
+
+#container:hover > .borderLeft {
+    border-image: linear-gradient(to top, #ff2600, #ff9102)1;
+}
+
+.borderBottom {
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to left, #ff9102, #ff4800)1;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    transition: 0.5s ease-in;
+}
+
+#container:hover > .borderBottom {
+    border-image: linear-gradient(to left, #ff2600, #ff9102)1;
+}
+
+.borderRight {
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to top, #ff9102, #ff4800)1;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 50%;
+    transition: 0.5s ease-in;
+}
+
+#container:hover > .borderRight {
+    border-image: linear-gradient(to top, #ff2600, #ff9102)1;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 1em 0;
+    text-align: center;
+    margin: 1em 0;
+}
+
+input[type=button] {
+    width: 101%;
+    background-color: rgb(29, 28, 28);
+    color: azure;
+    padding: 1em;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 1em 0;
+    background-color: rgb(29, 28, 28);
+    color: azure;
+    width: 100vw;
+    position: absolute;
+    bottom: 0
+}
