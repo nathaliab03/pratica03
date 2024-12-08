@@ -3,10 +3,6 @@
     font-family: monospace;
 }
 
-body {
-    background-image: url("/img/bg.jpg");
-}
-
 main {
     height: 100vh;
     display: flex;
