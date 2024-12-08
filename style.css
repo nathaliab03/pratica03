@@ -3,6 +3,10 @@
     font-family: monospace;
 }
 
+body {
+    background-image: url("/img/bg.jpg");
+}
+
 main {
     height: 100vh;
     display: flex;
@@ -92,9 +96,6 @@ h2 {
     border-image: linear-gradient(to top, #ff2600, #ff9102)1;
 }
 
-
-
-
 input[type=text] {
     width: 100%;
     padding: 1em 0;
@@ -109,9 +110,6 @@ input[type=button] {
     padding: 1em;
 }
 
-
-
-
 footer {
     display: flex;
     justify-content: center;
@@ -121,158 +119,4 @@ footer {
     width: 100vw;
     position: absolute;
     bottom: 0
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-
-*{
-    margin: 0;
-    font-family: monospace;
-}
-
-main {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
-    height: 100vh;
-}
-
-
-
-
-h1 {
-    font-size: 3em;
-}
-
-h2 {
-    color: #e46c0a
-}
-
-#container {
-    padding: 5em;
-    position: relative;
-    
-}
-
-
-
-input[type=number] {
-    width: 100%;
-    padding: 1em 0;
-    text-align: center;
-    margin: 1em 0;
-}
-
-input[type=button] {
-    width: 101%;
-    padding: 1em;
-    background-color: rgb(31, 28, 28);
-    color: azure;
-}
-
-
-.borderTop {
-    border-width: 3px;
-    border-style: solid;
-    border-image: linear-gradient(to left, #140083, #ff9641) 1;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
-    transition: ease-in 0.4s;
-}
-
-#container:hover > .borderTop {
-    border-image: linear-gradient(to left, #e46c0a, #ff9641) 1;
-}
-
-.borderLeft {
-    border-width: 3px;
-    border-style: solid;
-    border-image: linear-gradient(to top, #FFEF00, #ff9641) 1;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 50%;
-    transition: ease-in 0.4s;
-}
-
-#container:hover > .borderLeft {
-    border-image: linear-gradient(to top, #853c00, #ff9641) 1;
-}
-
-.borderRight {
-    border-width: 3px;
-    border-style: solid;
-    border-image: linear-gradient(to bottom, #ff9641, #e46c0a) 1;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    top: 50%;
-}
-
-.borderBottom {
-    border-width: 3px;
-    border-style: solid;
-    border-image: linear-gradient(to right, #853c00, #e46c0a) 1;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 50%;
-}
-
-#result {
-    margin-top: 1em;
-    text-align: center;
-    font-size: larger;
-}
-
-
-footer {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    bottom: 0;
-    padding: 1em 0;
-    width: 100vw;
-    background-color: rgb(31, 28, 28);
-    color: azure
 }
